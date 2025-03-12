@@ -1,37 +1,39 @@
-# Detector de Fake News 
+# Fake News Detector
+This repository contains a complete system for detecting fake news using natural language processing (NLP) techniques and machine learning algorithms.
 
-Este repositorio contiene un sistema completo para la detección de noticias falsas (fake news) utilizando técnicas de procesamiento de lenguaje natural (NLP) y algoritmos de machine learning.
+## Dataset
+The project uses two datasets:
 
-## Conjunto de Datos
+- Fake.csv: Contains news labeled as fake
+- True.csv: Contains news labeled as true
+Each set includes the following fields:
+- title: News headline
+- text: News content
+- subject: News topic
+- date: Publication date
 
-El proyecto utiliza dos conjuntos de datos:
-- `Fake.csv`: Contiene noticias etiquetadas como falsas
-- `True.csv`: Contiene noticias etiquetadas como verdaderas
+## Technologies Used
 
-  Cada conjunto incluye los siguientes campos:
-- `title`: Título de la noticia
-- `text`: Contenido de la noticia
-- `subject`: Tema de la noticia
-- `date`: Fecha de publicación
+- Programming Language: Python 3.9
 
-##  Tecnologías Utilizadas
+Main Libraries:
 
-- **Lenguaje de Programación**: Python 3.9
-- **Bibliotecas Principales**:
-  - pandas & numpy: Manipulación de datos
-  - scikit-learn: Algoritmos de machine learning y evaluación
-  - NLTK & spaCy: Procesamiento de lenguaje natural
-  - TensorFlow/Keras: Modelos neuronales (preparados en el código)
-  - matplotlib & seaborn: Visualización de datos
-  - joblib: Serialización de modelos
- 
-## Resultados
+- pandas & numpy: Data manipulation
+- scikit-learn: Machine learning algorithms and evaluation
+- NLTK & spaCy: Natural language processing
+- TensorFlow/Keras: Neural models (prepared in the code)
+- matplotlib & seaborn: Data visualization
+- joblib: Model serialization
 
-El sistema evalúa diferentes modelos de machine learning:
+
+
+## Results
+The system evaluates different machine learning models:
+
 - Passive Aggressive Classifier
 - Linear SVC
 - Logistic Regression
 - Multinomial Naive Bayes
 - Gradient Boosting Classifier
-
-Los resultados detallados de la evaluación, incluyendo la matriz de confusión y las métricas de rendimiento, se generan en el directorio `output_fakenews/reports/`.
+  
+Detailed evaluation results, including the confusion matrix and performance metrics, are generated in the output_fakenews/reports/ directory.

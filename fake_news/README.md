@@ -25,7 +25,7 @@ El proyecto utiliza dos conjuntos de datos:
   - matplotlib & seaborn: Visualización de datos
   - joblib: Serialización de modelos
  
-## 📈 Resultados
+## Resultados
 
 El sistema evalúa diferentes modelos de machine learning:
 - Passive Aggressive Classifier
